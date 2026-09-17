@@ -23,7 +23,7 @@
 }
 
 .site-navbar .navbar-toggler {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   width: 3.25rem;
@@ -75,10 +75,20 @@
   transform: scale(0.96);
 }
 
+@media (max-width: vars.$mobile-breakpoint) {
+  .site-navbar .navbar-toggler {
+    display: flex;
+  }
+}
+
 @media (min-width: vars.$desktop-breakpoint) {
   .site-header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .site-navbar .navbar-toggler {
+    display: none;
   }
 }
