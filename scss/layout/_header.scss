@@ -12,7 +12,7 @@
 
 .site-navbar {
   width: 100%;
-  padding: vars.$space-xl 8%;
+  padding: vars.$space-lg 8%;
 }
 
 .site-navbar .navbar-brand {
@@ -23,7 +23,19 @@
 }
 
 .site-navbar .navbar-toggler {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.25rem;
+  height: 3rem;
+  padding: 0;
   border: none;
+}
+
+.site-navbar .navbar-toggler-icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  filter: brightness(0) invert(1);
 }
 
 .site-navbar .navbar-toggler:focus {
