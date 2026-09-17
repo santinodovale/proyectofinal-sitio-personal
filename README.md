@@ -5,5 +5,5 @@ secciones de presentación, formación, proyectos, habilidades y contacto.
 
 ## Enlaces
 
-- Repositorio: https://github.com/santinodovale/preentrega-3-sitio-personal-
-- Sitio desplegado: 
+- Repositorio: https://github.com/santinodovale/proyectofinal-sitio-personal
+- Sitio desplegado: https://sdovale.netlify.app
