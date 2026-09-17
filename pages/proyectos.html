@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Proyectos de práctica de Santino Dovale.">
+  <meta name="description" content="Conocé los proyectos y ejercicios de desarrollo web de Santino Dovale, con prácticas de HTML5, CSS, Flexbox y diseño responsivo.">
+  <meta name="keywords" content="proyectos web, portfolio académico, HTML5, CSS, Flexbox, diseño responsivo, Santino Dovale">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;700&amp;family=Space+Grotesk:wght@500;700&amp;display=swap" rel="stylesheet">
@@ -14,17 +15,29 @@
 </head>
 <body class="site-body">
   <header class="site-header">
-    <p><a href="../index.html">Santino Dovale</a></p>
-    <input class="menu-checkbox" type="checkbox" id="main-menu-toggle">
-    <label class="menu-toggle" for="main-menu-toggle" aria-label="Abrir menú"><span aria-hidden="true">☰</span></label>
-    <nav id="mainNav" class="site-nav" aria-label="Navegación principal"><ul><li><a href="../index.html">Inicio</a></li><li><a href="sobre-mi.html">Sobre mí</a></li><li><a href="proyectos.html" aria-current="page">Proyectos</a></li><li><a href="contacto.html">Contacto</a></li><li><a href="servicios.html">Habilidades</a></li></ul></nav>
+    <nav class="navbar navbar-expand-xl site-navbar" aria-label="Navegación principal">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Santino Dovale</a>
+        <input class="menu-checkbox" type="checkbox" id="main-menu-toggle">
+        <label class="navbar-toggler" for="main-menu-toggle" aria-label="Abrir menú"><span class="navbar-toggler-icon"></span></label>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="sobre-mi.html">Sobre mí</a></li>
+            <li class="nav-item"><a class="nav-link" href="proyectos.html" aria-current="page">Proyectos</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="servicios.html">Habilidades</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <main class="site-main">
     <section class="content-section" aria-labelledby="titulo-proyectos">
-      <h1 id="titulo-proyectos">Proyectos</h1>
+      <h1 id="titulo-proyectos" class="animate__animated animate__fadeInUp">Proyectos</h1>
       <p>Esta sección está destinada a mostrar proyectos y ejercicios de programación.</p>
       <figure>
-        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Panel de análisis con gráficos y métricas en una computadora portátil" width="900" height="600">
+        <img src="../assets/panel-analisis-proyectos.jpg" alt="Panel de análisis con gráficos y métricas en una computadora portátil" width="900" height="600">
         <figcaption>Herramientas digitales.</figcaption>
       </figure>
     </section>

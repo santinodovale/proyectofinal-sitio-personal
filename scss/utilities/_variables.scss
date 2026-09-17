@@ -17,20 +17,6 @@ $color-shadow-muted: rgba(40, 75, 99, 0.08);
 $color-shadow-hover: rgba(255, 123, 84, 0.22);
 $color-overlay-accent: rgba(255, 123, 84, 0.2);
 
-$color-dark-background: #171a2a;
-$color-dark-surface: #202744;
-$color-dark-surface-muted: #25304d;
-$color-dark-card: #303a63;
-$color-dark-primary: #9bdcf4;
-$color-dark-text: #eff6ff;
-$color-dark-text-muted: #ccd7ea;
-$color-dark-accent: #ffb26b;
-$color-dark-accent-light: #ffd3aa;
-$color-dark-tag: #503c75;
-$color-dark-tag-hover: #6c55aa;
-$color-dark-border: rgba(255, 255, 255, 0.08);
-$color-dark-shadow: rgba(0, 0, 0, 0.4);
-
 $font-body: 'Source Sans 3', Arial, sans-serif;
 $font-heading: 'Space Grotesk', Arial, sans-serif;
 $font-size-body: 18px;
@@ -53,3 +39,4 @@ $radius-pill: 999px;
 $transition-fast: 0.2s ease;
 $transition-card: 0.25s ease;
 $desktop-breakpoint: 1400px;
+$mobile-breakpoint: 1399px;

@@ -5,30 +5,29 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: vars.$space-xl 8%;
+  padding: 0;
   background-color: vars.$color-primary;
   color: vars.$color-surface;
 }
 
-@media (max-width: vars.$desktop-breakpoint - 1px) {
-  .site-header .theme-toggle {
-    order: 2;
-    width: auto;
-    max-width: fit-content;
-    margin-left: 0;
-    margin-top: vars.$space-sm;
-    justify-content: center;
-    padding: vars.$space-xs vars.$space-md;
-    font-size: 0.8rem;
-  }
+.site-navbar {
+  width: 100%;
+  padding: vars.$space-xl 8%;
+}
 
-  .site-header .theme-toggle .theme-toggle__icon {
-    font-size: 1rem;
-  }
+.site-navbar .navbar-brand {
+  color: vars.$color-surface;
+  font-family: vars.$font-heading;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
 
-  .site-header .theme-toggle .theme-toggle__text {
-    font-size: 0.76rem;
-  }
+.site-navbar .navbar-toggler {
+  border: none;
+}
+
+.site-navbar .navbar-toggler:focus {
+  box-shadow: 0 0 0 vars.$space-xs vars.$color-accent;
 }
 
 .site-header p {

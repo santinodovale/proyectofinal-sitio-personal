@@ -89,16 +89,6 @@
   background-color: vars.$color-surface-hover;
 }
 
-.reveal-card {
-  opacity: 0;
-  transform: translateY(1rem);
-}
-
-.reveal-card.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 .tag-list {
   display: flex;
   flex-wrap: wrap;

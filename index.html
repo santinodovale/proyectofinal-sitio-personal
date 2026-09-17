@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Sitio web personal de Santino Dovale, estudiante y desarrollador en formación.">
+  <meta name="description" content="Portfolio personal de Santino Dovale, estudiante de Ingeniería en Sistemas y desarrollador web Full Stack en formación.">
+  <meta name="keywords" content="Santino Dovale, desarrollador web, portfolio personal, Ingeniería en Sistemas, Full Stack, JavaScript, Python">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;700&amp;family=Space+Grotesk:wght@500;700&amp;display=swap" rel="stylesheet">
@@ -14,26 +15,30 @@
 </head>
 <body class="site-body">
   <header class="site-header">
-    <p><a href="index.html">Santino Dovale</a></p>
-    <input class="menu-checkbox" type="checkbox" id="main-menu-toggle">
-    <label class="menu-toggle" for="main-menu-toggle" aria-label="Abrir menú"><span aria-hidden="true">☰</span></label>
-    <nav id="mainNav" class="site-nav" aria-label="Navegación principal">
-      <ul>
-        <li><a href="index.html" aria-current="page">Inicio</a></li>
-        <li><a href="pages/sobre-mi.html">Sobre mí</a></li>
-        <li><a href="pages/proyectos.html">Proyectos</a></li>
-        <li><a href="pages/contacto.html">Contacto</a></li>
-        <li><a href="pages/servicios.html">Habilidades</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-xl site-navbar" aria-label="Navegación principal">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Santino Dovale</a>
+        <input class="menu-checkbox" type="checkbox" id="main-menu-toggle">
+        <label class="navbar-toggler" for="main-menu-toggle" aria-label="Abrir menú"><span class="navbar-toggler-icon"></span></label>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html" aria-current="page">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/sobre-mi.html">Sobre mí</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/proyectos.html">Proyectos</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/servicios.html">Habilidades</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
   <main class="site-main">
     <section class="content-section" aria-labelledby="presentacion">
-      <h1 id="presentacion">Hola, soy Santino Dovale</h1>
+      <h1 id="presentacion" class="animate__animated animate__fadeInUp">Hola, soy Santino Dovale</h1>
       <div class="intro-layout">
         <figure class="hero-figure">
-          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Computadora portátil abierta con código de programación en pantalla" width="900" height="600">
+          <img src="assets/computadora-portatil-codigo.jpg" alt="Computadora portátil abierta con código de programación en pantalla" width="900" height="600">
           <figcaption>Código de programación.</figcaption>
         </figure>
         <div class="intro-copy">
